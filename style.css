@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 470px;
+    background-color:#52AA7F;
+    color: white;
+    padding-top: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    color: white;
+}
+ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+ul li {
+    margin-left: 30px;
+}
+.menu a{
+    color: white
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+.description{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 100px;
+}
+.photos{
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+}
+.choose-tour{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.place{
+    font-size: 24px;
+    
+}
+.about-us{
+    display: flex;
+    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: left;
+}
+.about-us-section{
+    background-color: #fff;
+    margin-top: 350px;
+}
+.text_abous-us{
+    width: 50%;
+    margin-right: 50px;
+}
+.text_abous-us h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photo-about{
+    width: 50%;
+}
+h2{
+    text-align: left;
+}
+.about{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.card-tour{
+    width: 270px;
+    height: 352px;
+    background-color: #FFF5F5;
+    border: 1px solid lightgrey;
+}
+.tours h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+.img-card{
+    width: 270px;
+    height: 175px;
+}
+.cards-tours{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    padding-bottom: 100px;
+}
+.card-title{
+    font-size: 20px;
+}
+.card-days{
+    font-size: 14px;
+    color: grey;
+}
+.card-price{
+    font-size: 36px;
+    font-weight: 400;
+}
+.p-about{
+    margin-top: 100px;
+}
+.tips, .photo-and-name_block{
+    display: flex;
+    justify-content: space-around;
+}
+.photo-tip1{
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.photo-tip{
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-tip1 img{
+    width: 100%; 
+    height: auto;
+}
+.photo-tip img{
+    width: 100%;
+    height: auto;
+}
+.text-tip{
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #F5F6F8;
+}
+.travel-tip:nth-of-type(2) .text-tip, .travel-tip:nth-of-type(3) .text-tip{
+    padding-bottom: 40px;
+}
+.travel-tip:not(:last-child){
+    margin-right: 20px;
+}
+.profession-tip{
+    color: grey;
+}
+.tips{
+    padding-bottom: 200px;
+}
+.travel-tips h1{
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: #0C1A29;
+    color: white;
+}
+footer a{
+    color: white;
+}
+.page-footer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 70px 0px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+}
+.footer-grey{
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 20px;
+}
+.footer-menu__item{
+    margin-bottom: 10px;
+    color: white;
+}
+.copyright-link{
+    color: inherit;
+    margin-top: 10px;
+}
+.swiper-container {
+    position: absolute;
+    top: 350px;
+    width: 1440px; /* Ширина для отображения 5 изображений по 200px */
+    margin: auto;
+}
+.swiper-slide {
+    position: relative;
+    text-align: center;
+}
+.caption {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+.swiper-slide img{
+    width: 270px;
+    object-fit: cover;
+    border: 5px solid white;
+}
+.contacts{
+    color: white;
+    background-color: #11253A;
+    height: 700px;
+    padding: 80px 0px;
+}
+.contacts h1{
+    font-size: 32px;
+}
+.contact_container{
+    display: flex;
+    gap: 120px;
+}
+.contact-button{
+    margin-top: 100px;
+}
+.contact-button a{
+    border: 1px solid;
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+}
+.contact-phone, .contact-telegram{
+    display: flex;
+    align-items: center;
+}
+.phone-image, .telegram-image{
+    margin-right: 30px;
+}
+.phone-text, .telegram-text{
+    font-size: 24px;
+}
+.map{
+    width: 700px; 
+    height: 600px;
+}
+.block__title{
+    font-size: 16px;
+    color: grey;
+    font-weight: normal;
+}
+.about__choose-tour{
+    color: white;
+    border: 1px solid #52AA7F;
+    padding: 10px 20px;
+    background-color: #52AA7F;
+}
+.choose_tour_item{
+    text-align: center;
+    margin-top: 70px;
+}
+.adress{
+    display: inline;
+}
+.contact-us{
+    text-align-last: left;
+}
